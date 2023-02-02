@@ -13,6 +13,7 @@
   body {
     line-height: 1.5;
     -webkit-font-smoothing: antialiased;
+    font-family: monospace;
   }
 
   img, picture, video, canvas, svg {
@@ -28,9 +29,62 @@
     overflow-wrap: break-word;
   }
 
-  #navbar {
+  .header {
     display: flex;
     flex-direction: column;
     align-items: center;
+    justify-content: center;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    
+  }
+
+  #navbar {
+    display: flex;
     justify-content: space-between;
+    width: 80%;
+    align-items: center;
+    position: sticky;
+  }
+
+  .socials {
+    display: flex;
+    gap: 15px;
+  }
+
+  .nav {
+    display: flex;
+    gap: 20px;
+    list-style: none;
+    
+  }
+
+  .nav a {
+    text-decoration: none;
+    color: black;
+    font-size: 20px;
+  }
+
+  #section1 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
+
+  .section1 {
+    display: flex;
+    width: 80%;
+    align-items: center;
+  }
+
+  .project-link {
+    display: flex;
+    gap: 10px;
+  }
+
+  .tag {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
   }
