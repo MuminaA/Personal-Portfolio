@@ -1,3 +1,5 @@
+/* resets */
+
 *,
 *::before,
 *::after {
@@ -45,6 +47,8 @@ h6 {
   overflow-wrap: break-word;
 }
 
+/* nav bar CSS */
+
 .header {
   display: flex;
   flex-direction: column;
@@ -78,6 +82,8 @@ h6 {
   color: black;
   font-size: 20px;
 }
+
+/* home page CSS */
 
 #section1 {
   display: flex;
@@ -158,3 +164,7 @@ h6 {
   background-color: #e392b6;
   display: block;
 }
+
+/* Contact page CSS */
+
+
