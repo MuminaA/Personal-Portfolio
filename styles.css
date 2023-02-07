@@ -167,4 +167,72 @@ h6 {
 
 /* Contact page CSS */
 
+#section4 {
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+
+.in-touch {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 10px;
+}
+
+#form {
+  padding-top: 30px;
+}
+
+.form-border {
+  border: solid #e392b6 3px;
+  border-radius: 15px;
+  padding: 20px;
+  width: 500px;
+  height: 420px;
+}
+
+form {
+  display: flex;
+  flex-direction: column;
+}
+
+.input-container {
+  margin-bottom: 10px;
+  box-shadow: 0px 2px 2px #9e9d9d;
+}
+
+#submit-button {
+margin-top: 10px;
+display: flex;
+justify-content: flex-end;
+}
+
+.division {
+  width: 80%;
+}
+
+button {
+  box-shadow: 0px 2px 2px #9e9d9d;
+}
+
+button:active {
+  transform: scale(.9);
+}
+
+.input-container {
+  position: relative;
+}
+
+.error-icon {
+  position: absolute;
+  right: 0;
+  top: 50%;
+  transform: translateY(-50%);
+  margin-right: 20px;
+}
+
+.error-icon {
+  display: none;
+}
 

@@ -32,27 +32,52 @@
       </nav>
     </section>
     <section id="section4">
-        <div class="section4">
-            <div class="in-touch">
-                <h2>GET IN TOUCH</h2>
+      <div class="in-touch">
+        <h2>GET IN TOUCH</h2>
+      </div>
+      <hr class="division" />
+      <div id="form">
+        <div class="form-border">
+          <form>
+            <label for="name"><b>Name&#42;</b></label>
+            <div class="input-container">
+              <input
+                type="text"
+                id="name"
+                placeholder="Enter your name"
+                required
+                style="width: 100%"
+              />
+              <img
+                src="images//exclamation-point-error.png"
+                class="error-icon"
+                style="width: 15px"
+              />
             </div>
-            <div class="division">
-                <hr>
+            <label for="name"><b>Email&#42;</b> </label>
+            <div class="input-container">
+              <input
+                type="email"
+                id="name"
+                placeholder="Enter your email"
+                required
+                style="width: 100%"
+              />
+              <img
+                src="images//exclamation-point-error.png"
+                class="error-icon"
+                style="width: 15px"
+              />
             </div>
-            <div class="form-border">
-                <div>
-                    <form>
-                        <label for="name">Name&#42; </label>
-                        <input type="text" id="name" placeholder="Enter your name" required>
-                        <label for="name">Email&#42; </label>
-                        <input type="text" id="name" placeholder="Enter your email" required>
-                        <label for="name">Message </label>
-                        <textarea></textarea>
-                        
-                    </form>
-                </div>
+            <label for="name"><b>Message</b></label>
+            <textarea rows="10" cols="30" style="padding: 5px"></textarea>
+            <div id="submit-button">
+              <button type="submit" class="submit">Submit</button>
             </div>
+          </form>
         </div>
+      </div>
     </section>
+    <script src="app.js"></script>
   </body>
 </html>
