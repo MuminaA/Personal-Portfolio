@@ -236,3 +236,56 @@ button:active {
   display: none;
 }
 
+/* Project page CSS */
+
+.my-projects {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.grid-content {
+  display: grid;
+  grid-gap: 20px;
+  width: 80%;
+  grid-template-columns: repeat(3, 1fr);
+  grid-template-rows: auto;
+  margin-top: 150px;
+}
+
+.project {
+  text-align: center;
+}
+
+.project a {
+  text-decoration: none;
+  color: black;
+}
+
+.project-name {
+  margin-top: 10px;
+}
+
+.more-project-link {
+  display: flex;
+  justify-content: flex-end;
+  grid-column: 1 / -1;
+  text-align: center;
+}
+
+.more-project {
+  display: flex;
+  gap: 5px;
+}
+
+.more-project {
+  position: relative;
+  cursor: pointer;
+  transition: all 0.3s ease-in-out;
+}
+
+.more-project:hover {
+  transform: translateX(5px);
+  color: #e392b6;
+}
