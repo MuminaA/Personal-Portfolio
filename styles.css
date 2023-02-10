@@ -297,3 +297,30 @@ button:active {
   transform: translateX(5px);
   color: #e392b6;
 }
+
+#about-me {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.about-me {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+figure {
+  width: 500px;
+}
+
+.this-me {
+  font-size: 3em;
+  padding-bottom: 25px;
+  color: #e392b6;
+}
+
+.about-me-para {
+  font-size: 1.2em;
+}
