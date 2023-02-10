@@ -139,6 +139,9 @@ h6 {
 
 .project-link:hover {
   transform: translateX(5px);
+}
+
+.project-link a:hover {
   color: #e392b6;
 }
 
@@ -163,6 +166,11 @@ h6 {
   height: 2px;
   background-color: #e392b6;
   display: block;
+}
+
+.project-link a {
+  text-decoration: none;
+  color: black;
 }
 
 /* Contact page CSS */
